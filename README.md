@@ -20,9 +20,16 @@ node src/index.mjs
 yarn dev
 ```
 
-## Inspecting built files
+## Inspecting Snowpack built files
 
 ```sh
 yarn build
 cat build/web_modules/zod.js
+```
+
+## Building and running with Rollup alone
+
+```sh
+yarn rollup -c
+node output/index.js
 ```

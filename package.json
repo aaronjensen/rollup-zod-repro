@@ -1,0 +1,16 @@
+{
+  "name": "rollup-zod-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "snowpack": "^2.17.1"
+  },
+  "dependencies": {
+    "zod": "^2.0.0-beta.25"
+  }
+}
